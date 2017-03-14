@@ -12,7 +12,8 @@ public class riseofangels {
 	@EventHandler 
 	public void preinit(FMLPreInitializationEvent event)
 	{
-		
+		RoAItems.init();
+		RoABlocks.init();
 	}
 	
 	@EventHandler
