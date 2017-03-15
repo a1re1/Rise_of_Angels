@@ -6,6 +6,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class riseofangels{
@@ -18,12 +19,13 @@ public class riseofangels{
 	{	
 		RoAItems.init();
 		RoABlocks.init();
+		
 	}
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event)
 	{
-		
+		MinecraftForge.EVENT_BUS.register(new eventHandler());
 	}
 	
 	@EventHandler 
