@@ -28,5 +28,3 @@ public class riseofangels {
 		
 	}
 }
-
-//TEST
