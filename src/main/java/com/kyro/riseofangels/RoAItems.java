@@ -14,7 +14,7 @@ import net.minecraft.item.ItemArmor.ArmorMaterial;
 public class RoAItems {
 	
 	public static Item DemonTail = new DemonTail();
-	public static Item AngelHeart = new AngelHeart();
+	public static Item AngelHeart = new AngelHeart(5, 4, false);
 	public static Item CultBritches = new CultistArmor(ArmorMaterial.CHAIN, riseofangels.proxy.addArmor("CultistBritches"), 2);
 	public static Item CultHood = new CultistArmor(ArmorMaterial.CHAIN, riseofangels.proxy.addArmor("CultHood"), 0);
 	public static Item CultRobe = new CultistArmor(ArmorMaterial.CHAIN, riseofangels.proxy.addArmor("CultRobe"), 1);
