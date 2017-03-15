@@ -1,27 +1,32 @@
 package com.kyro.riseofangels;
 import java.util.ArrayList;
+
+import com.kyro.items.*;
+
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.minecraft.client.Minecraft;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
+
 
 public class RoAItems {
 	
 	public static Item DemonTail = new DemonTail();
 	public static Item AngelHeart = new AngelHeart();
-	public static Item CultBritches = new CultBritches();
-	public static Item CultHood = new CultHood();
-	public static Item CultRobe = new CultRobe();
-	public static Item CultShoes = new CultShoes();
+	public static Item CultBritches = new CultistArmor(ArmorMaterial.CHAIN, riseofangels.proxy.addArmor("CultistBritches"), 2);
+	public static Item CultHood = new CultistArmor(ArmorMaterial.CHAIN, riseofangels.proxy.addArmor("CultHood"), 0);
+	public static Item CultRobe = new CultistArmor(ArmorMaterial.CHAIN, riseofangels.proxy.addArmor("CultRobe"), 1);
+	public static Item CultShoes = new CultistArmor(ArmorMaterial.CHAIN, riseofangels.proxy.addArmor("CultShoes"), 3);
 	public static Item DeathFire = new DeathFire();
 	public static Item DemonBloodVial = new DemonBloodVial();
 	public static Item DemonHeart = new DemonHeart();
 	public static Item DemonSword = new DemonSword(ToolMaterial.EMERALD);
-	public static Item DragonscaleBoots = new DragonscaleBoots();
-	public static Item DragonscaleChest = new DragonscaleChest();
-	public static Item DragonscaleGrieves = new DragonscaleGrieves();
-	public static Item DragonscaleHelm = new DragonscaleHelm();
+	public static Item DragonscaleBoots = new DragonscaleArmor(ArmorMaterial.DIAMOND, riseofangels.proxy.addArmor("DragonscaleBoots"), 3);
+	public static Item DragonscaleChest = new DragonscaleArmor(ArmorMaterial.DIAMOND, riseofangels.proxy.addArmor("DragonscaleChest"), 1);
+	public static Item DragonscaleGrieves = new DragonscaleArmor(ArmorMaterial.DIAMOND, riseofangels.proxy.addArmor("DragonscaleGrieves"), 2);
+	public static Item DragonscaleHelm = new DragonscaleArmor(ArmorMaterial.DIAMOND, riseofangels.proxy.addArmor("DragonscaleHelm"), 0);
 	
 	public static void init() {
 		

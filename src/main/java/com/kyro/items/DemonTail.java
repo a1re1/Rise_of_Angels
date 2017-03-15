@@ -1,4 +1,6 @@
-package com.kyro.riseofangels;
+package com.kyro.items;
+
+import com.kyro.riseofangels.Reference;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
