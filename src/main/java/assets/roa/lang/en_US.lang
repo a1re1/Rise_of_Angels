@@ -1,3 +1,17 @@
+#Blocks
+tile.DemonBlood.name=Demon Blood
+tile.KyroanSoil.name=Kyroan Soil
+tile.DestinyStone.name=Destiny Stone
+tile.DestinyStoneBricks.name=Destiny Stone Bricks
+tile.AngelicMarble.name=Holy Rock
+tile.AngelicMarbWall.name=Holy Rock Wall
+tile.AngOre.name=Angelic Ore
+tile.DemOre.name=Demonic Ore
+tile.HavOre.name=Haven Ore
+tile.LucOre.name=Luciferous Ore
+tile.Clock.name=Clock
+
+#Items
 item.DemonTail.name=Demon Tail
 item.CultBritches.name=Cult Britches
 item.CultRobe.name=Cultist Robes
@@ -12,3 +26,18 @@ item.DragonscaleChest.name=Dragonscale Chest
 item.DragonscaleGrieves.name=Dragonscale Grieves
 item.DragonscaleHelm.name=Dragonscale Helm
 item.AngelHeart.name=Angel Heart
+item.PriestHat.name=Priest Hat
+item.PriestRobe.name=Priest Robes
+item.PriestPants.name=Priest Pants
+item.PriestShoes.name=Priest Shoes
+item.CrusaderHelm.name=Crusader Helm
+item.CrusaderMail.name=Crusader Mail
+item.CrusaderLeggings.name=Crusader Leggings
+item.CrusaderBoots.name=Crusader Boots
+item.AngelWings.name=Angel Wings
+item.BrokenHalo.name=Broken Halo
+item.Cross.name=Cross
+item.EdenFrag.name=Fragment of Eden
+item.HolySword.name=Holy Sword
+item.HolyWaterVial.name=Holy Water Vial
+item.SilverBullet.name=Silver Bullet

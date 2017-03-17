@@ -1,7 +1,7 @@
 package com.kyro.riseofangels;
 import java.util.ArrayList;
 
-import com.kyro.items.*;
+import com.items.*;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
@@ -24,7 +24,7 @@ public class RoAItems {
 	public static Item SilverBullet = new SilverBullet();
 	
 	//Consumables
-	public static Item AngelHeart = new AngelHeart(5, 4, false);
+	public static Item AngelHeart = new AngelHeart(0, 4, false);
 	public static Item DemonHeart = new DemonHeart();//TODO
 	public static Item EdenFrag = new EdenFrag();//TODO
 	
@@ -33,22 +33,22 @@ public class RoAItems {
 	public static Item HolySword = new HolySword(ToolMaterial.EMERALD);
 	
 	//Armor
-	public static Item CultBritches = new CultistArmor(ArmorMaterial.CHAIN, riseofangels.proxy.addArmor("CultistBritches"), 2);
-	public static Item CultHood = new CultistArmor(ArmorMaterial.CHAIN, riseofangels.proxy.addArmor("CultHood"), 0);
-	public static Item CultRobe = new CultistArmor(ArmorMaterial.CHAIN, riseofangels.proxy.addArmor("CultRobe"), 1);
-	public static Item CultShoes = new CultistArmor(ArmorMaterial.CHAIN, riseofangels.proxy.addArmor("CultShoes"), 3);
-	public static Item DragonscaleBoots = new DragonscaleArmor(ArmorMaterial.DIAMOND, riseofangels.proxy.addArmor("DragonscaleBoots"), 3);
-	public static Item DragonscaleChest = new DragonscaleArmor(ArmorMaterial.DIAMOND, riseofangels.proxy.addArmor("DragonscaleChest"), 1);
-	public static Item DragonscaleGrieves = new DragonscaleArmor(ArmorMaterial.DIAMOND, riseofangels.proxy.addArmor("DragonscaleGrieves"), 2);
-	public static Item DragonscaleHelm = new DragonscaleArmor(ArmorMaterial.DIAMOND, riseofangels.proxy.addArmor("DragonscaleHelm"), 0);
-	public static Item CrusaderHelm = new CrusaderGear(ArmorMaterial.DIAMOND, riseofangels.proxy.addArmor("CrusaderHelm"), 0);
-	public static Item CrusaderMail = new CrusaderGear(ArmorMaterial.DIAMOND, riseofangels.proxy.addArmor("CrusaderMail"), 1);
-	public static Item CrusaderLeggings = new CrusaderGear(ArmorMaterial.DIAMOND, riseofangels.proxy.addArmor("CrusaderLeggings"), 2);
-	public static Item CrusaderBoots = new CrusaderGear(ArmorMaterial.DIAMOND, riseofangels.proxy.addArmor("CrusaderBoots"), 3);
-	public static Item PriestHat = new PriestRobe(ArmorMaterial.CHAIN, riseofangels.proxy.addArmor("PriestHat"), 0);
-	public static Item PriestRobe = new PriestRobe(ArmorMaterial.CHAIN, riseofangels.proxy.addArmor("PriestRobe"), 1);
-	public static Item PriestPants = new PriestRobe(ArmorMaterial.CHAIN, riseofangels.proxy.addArmor("PriestPants"), 2);
-	public static Item PriestShoes = new PriestRobe(ArmorMaterial.CHAIN, riseofangels.proxy.addArmor("PriestShoes"), 3);
+	public static Item CultBritches = new CultistArmor(ArmorMaterial.CHAIN, RiseOfAngels.proxy.addArmor("CultistBritches"), 2);
+	public static Item CultHood = new CultistArmor(ArmorMaterial.CHAIN, RiseOfAngels.proxy.addArmor("CultHood"), 0);
+	public static Item CultRobe = new CultistArmor(ArmorMaterial.CHAIN, RiseOfAngels.proxy.addArmor("CultRobe"), 1);
+	public static Item CultShoes = new CultistArmor(ArmorMaterial.CHAIN, RiseOfAngels.proxy.addArmor("CultShoes"), 3);
+	public static Item DragonscaleBoots = new DragonscaleArmor(ArmorMaterial.DIAMOND, RiseOfAngels.proxy.addArmor("DragonscaleBoots"), 3);
+	public static Item DragonscaleChest = new DragonscaleArmor(ArmorMaterial.DIAMOND, RiseOfAngels.proxy.addArmor("DragonscaleChest"), 1);
+	public static Item DragonscaleGrieves = new DragonscaleArmor(ArmorMaterial.DIAMOND, RiseOfAngels.proxy.addArmor("DragonscaleGrieves"), 2);
+	public static Item DragonscaleHelm = new DragonscaleArmor(ArmorMaterial.DIAMOND, RiseOfAngels.proxy.addArmor("DragonscaleHelm"), 0);
+	public static Item CrusaderHelm = new CrusaderGear(ArmorMaterial.DIAMOND, RiseOfAngels.proxy.addArmor("CrusaderHelm"), 0);
+	public static Item CrusaderMail = new CrusaderGear(ArmorMaterial.DIAMOND, RiseOfAngels.proxy.addArmor("CrusaderMail"), 1);
+	public static Item CrusaderLeggings = new CrusaderGear(ArmorMaterial.DIAMOND, RiseOfAngels.proxy.addArmor("CrusaderLeggings"), 2);
+	public static Item CrusaderBoots = new CrusaderGear(ArmorMaterial.DIAMOND, RiseOfAngels.proxy.addArmor("CrusaderBoots"), 3);
+	public static Item PriestHat = new PriestRobe(ArmorMaterial.CHAIN, RiseOfAngels.proxy.addArmor("PriestHat"), 0);
+	public static Item PriestRobe = new PriestRobe(ArmorMaterial.CHAIN, RiseOfAngels.proxy.addArmor("PriestRobe"), 1);
+	public static Item PriestPants = new PriestRobe(ArmorMaterial.CHAIN, RiseOfAngels.proxy.addArmor("PriestPants"), 2);
+	public static Item PriestShoes = new PriestRobe(ArmorMaterial.CHAIN, RiseOfAngels.proxy.addArmor("PriestShoes"), 3);
 	
 	public static void init() {
 		
