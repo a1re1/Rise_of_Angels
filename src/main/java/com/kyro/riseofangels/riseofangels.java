@@ -26,6 +26,7 @@ public class RiseOfAngels{
 	{	
 		RoAItems.init();
 		RoABlocks.init();
+		RoARecipes.init();
 	}
 	
 	@EventHandler

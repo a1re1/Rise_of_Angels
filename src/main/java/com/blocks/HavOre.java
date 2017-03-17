@@ -10,10 +10,11 @@ public class HavOre extends Block {
 
 	public HavOre() {
 		super(Material.rock);
-		setHarvestLevel("pickaxe", 3);
+		setHarvestLevel("pickaxe", 2);
 		setCreativeTab(CreativeTabs.tabMisc);
 		setBlockName("HavOre");
 		setBlockTextureName(Reference.MOD_ID + ":" + "HavOre");
+		setLightLevel(0.5F);
 	}
 
 }

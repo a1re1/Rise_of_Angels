@@ -3,7 +3,9 @@ package com.items;
 import com.kyro.riseofangels.Reference;
 
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemArmor;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 
 public class DragonscaleArmor extends ItemArmor{
@@ -26,6 +28,18 @@ public class DragonscaleArmor extends ItemArmor{
 		else{
 			setUnlocalizedName("DragonscaleBoots");
 			setTextureName(Reference.MOD_ID + ":" + "DragonscaleBoots");
+		}
+	}
+	
+	@Override
+	public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
+	{
+		if (armorType == 0 || armorType == 1 || armorType == 3) {
+			return Reference.MOD_ID + ":textures/armor/dragon_1.png";
+		}else if(armorType == 2){
+			return Reference.MOD_ID + ":textures/armor/dragon_2.png";
+		}else{
+			return null;
 		}
 	}
 

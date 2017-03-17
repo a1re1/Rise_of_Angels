@@ -38,9 +38,9 @@ public class CrusaderGear extends ItemArmor{
 	public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
 	{
 		if (armorType == 0 || armorType == 1 || armorType == 3) {
-			return Reference.MOD_ID + ":textures/armor/crusadergarb_1.png";
+			return Reference.MOD_ID + ":textures/armor/crusader_1.png";
 		}else if(armorType == 2){
-			return Reference.MOD_ID + ":textures/armor/crusadergarb_2.png";
+			return Reference.MOD_ID + ":textures/armor/crusader_2.png";
 		}else{
 			return null;
 		}

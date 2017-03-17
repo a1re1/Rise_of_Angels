@@ -13,8 +13,9 @@ import net.minecraft.item.ItemArmor.ArmorMaterial;
 
 public class RoAItems {
 	
-	//Items
+	//General Items
 	public static Item DemonTail = new DemonTail();
+	public static Item DemonEye = new DemonEye();
 	public static Item DeathFire = new DeathFire();
 	public static Item DemonBloodVial = new DemonBloodVial();
 	public static Item AngelWings = new AngelWings();
@@ -50,8 +51,55 @@ public class RoAItems {
 	public static Item PriestPants = new PriestRobe(ArmorMaterial.CHAIN, RiseOfAngels.proxy.addArmor("PriestPants"), 2);
 	public static Item PriestShoes = new PriestRobe(ArmorMaterial.CHAIN, RiseOfAngels.proxy.addArmor("PriestShoes"), 3);
 	
+	//Smeltable
+	public static Item LuciferousDust = new LuciferousDust();
+	public static Item HorcruxDust = new HorcruxDust();
+	public static Item EternalDust = new EternalDust();
+	public static Item AngelDust = new AngelDust();
+	public static Item CultuousBlend = new CultuousBlend();
+	public static Item DivineBlend = new DivineBlend();
+	
+	//Ingots
+	public static Item LuciferousIngot = new LuciferousIngot();
+	public static Item InsanityIngot = new InsanityIngot();
+	public static Item ImmortalIngot = new ImmortalIngot();
+	public static Item HorcruxIngot = new HorcruxIngot();
+	public static Item DivineIngot = new DivineIngot();
+	public static Item HavenCrystal = new HavenCrystal();
+	public static Item CultuousIngot = new CultuousIngot();
+	public static Item CelestialIngot = new CelestialIngot();
+	public static Item EternalIngot = new EternalIngot();
+	
+	
+	//to sort
+	public static Item TheRapture = new TheRapture();
+	public static Item ResurrectionStone = new ResurrectionStone();
+	public static Item DeathCrystal = new DeathCrystal();
+	public static Item DemonicTraps = new DemonicTraps();
+	public static Item DestructionStone = new DestructionStone();
+	
 	public static void init() {
 		
+		RegisterHelper.registerItem(AngelDust);
+		RegisterHelper.registerItem(TheRapture);
+		RegisterHelper.registerItem(LuciferousIngot);
+		RegisterHelper.registerItem(LuciferousDust);
+		RegisterHelper.registerItem(InsanityIngot);
+		RegisterHelper.registerItem(ImmortalIngot);
+		RegisterHelper.registerItem(HorcruxIngot);
+		RegisterHelper.registerItem(HorcruxDust);
+		RegisterHelper.registerItem(CultuousBlend);
+		RegisterHelper.registerItem(DivineBlend);
+		RegisterHelper.registerItem(DeathCrystal);
+		RegisterHelper.registerItem(DemonEye);
+		RegisterHelper.registerItem(DemonicTraps);
+		RegisterHelper.registerItem(DestructionStone);
+		RegisterHelper.registerItem(DivineIngot);
+		RegisterHelper.registerItem(EternalDust);
+		RegisterHelper.registerItem(EternalIngot);
+		RegisterHelper.registerItem(HavenCrystal);
+		RegisterHelper.registerItem(CultuousIngot);
+		RegisterHelper.registerItem(CelestialIngot);
 		RegisterHelper.registerItem(AngelHeart);
 		RegisterHelper.registerItem(DemonTail);
 		RegisterHelper.registerItem(CultBritches);
