@@ -1,11 +1,11 @@
 package com.items;
 
-import com.kyro.riseofangels.Reference;
-import com.kyro.riseofangels.RiseOfAngels;
+import com.riseofangels.RiseOfAngels;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import lib.utility.GodlyRating;
+import lib.utility.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;

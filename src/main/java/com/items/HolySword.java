@@ -1,7 +1,6 @@
 package com.items;
 
-import com.kyro.riseofangels.Reference;
-
+import lib.utility.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSword;
 import net.minecraft.item.Item.ToolMaterial;

@@ -1,6 +1,6 @@
 package lib.network.playerdata;
 
-import com.kyro.riseofangels.RiseOfAngels;
+import com.riseofangels.RiseOfAngels;
 
 import cpw.mods.fml.common.network.simpleimpl.IMessage;
 import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;

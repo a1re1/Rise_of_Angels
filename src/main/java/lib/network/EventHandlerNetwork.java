@@ -12,7 +12,7 @@ import lib.network.playerdata.PacketSyncGodliness;
 
 import java.util.ArrayList;
 
-import com.kyro.riseofangels.RiseOfAngels;
+import com.riseofangels.RiseOfAngels;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;

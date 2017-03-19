@@ -1,7 +1,6 @@
 package com.items;
 
-import com.kyro.riseofangels.Reference;
-
+import lib.utility.Reference;
 import net.minecraft.client.main.Main;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
