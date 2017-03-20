@@ -39,8 +39,8 @@ public class ModBiomes extends BiomeGenBase {
     }
 
     static {
-        battlegrounds = (new BiomeLightForest(BiomeIDs.LIGHT).setColor(5470985).setTemperatureRainfall(0.95F, 0.9F).setHeight(biomeHeight).setBiomeName("Forest Of Light"));
-        ruins = (new BiomeDarkForest(BiomeIDs.DARK).setColor(34049320).setTemperatureRainfall(0.8F, 0.4F).setHeight(biomeHeight).setBiomeName("Darkness Forest"));
+        battlegrounds = (new Battlegrounds(BiomeIDs.BETWEENLAND).setColor(5470985).setTemperatureRainfall(0.95F, 0.9F).setHeight(biomeHeight).setBiomeName("Battlegrounds"));
+        ruins = (new BiomeDarkForest(BiomeIDs.DEMON).setColor(34049320).setTemperatureRainfall(0.8F, 0.4F).setHeight(biomeHeight).setBiomeName("Darkness Forest"));
     }
 
     public WorldGenerator getRandomWorldGenForGrass(Random random)

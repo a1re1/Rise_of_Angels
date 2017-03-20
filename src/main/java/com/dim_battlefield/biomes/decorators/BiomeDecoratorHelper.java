@@ -1,7 +1,7 @@
 package com.dim_battlefield.biomes.decorators;
 
 import com.blocks.RoABlocks;
-import com.dim_battlefield.biomes.BiomeLightForest;
+import com.dim_battlefield.biomes.Battlegrounds;
 import com.dim_battlefield.biomes.ModBiomes;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
@@ -32,7 +32,7 @@ public class BiomeDecoratorHelper {
         generateOreInBiome(biome);
 
         if(biome == ModBiomes.battlegrounds){
-            BiomeDecoratorMod.howMenyTrees = BiomeLightForest.treesPerChunk;
+            BiomeDecoratorMod.howMenyTrees = Battlegrounds.treesPerChunk;
             int i = BiomeDecoratorMod.howMenyTrees;
             /** Chunk Postions **/
             int chunkX;

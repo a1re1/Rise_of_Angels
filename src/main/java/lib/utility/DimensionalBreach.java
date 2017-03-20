@@ -5,7 +5,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
-import com.kyrodim.block.Blockss;
+import com.blocks.tutblocks.Blockss;
+
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.init.Blocks;

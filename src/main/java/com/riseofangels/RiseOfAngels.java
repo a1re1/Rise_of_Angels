@@ -1,13 +1,11 @@
 package com.riseofangels;
 
 import com.blocks.RoABlocks;
+import com.blocks.tutblocks.Blockss;
 import com.dim_battlefield.biomes.ModBiomes;
-import com.events.CommonEventHandler;
 import com.items.RoAItems;
-import com.kyrodim.block.Blockss;
-import com.kyrodim.config.ModConfig;
-import com.kyrodim.world.Dimension;
-import com.kyrodim.world.WorldTypesTutorial;
+import com.kyrodim.Dimension;
+import com.kyrodim.WorldTypesTutorial;
 import com.proxies.ClientProxy;
 import com.proxies.CommonProxy;
 
@@ -19,6 +17,8 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
+import lib.config.ModConfig;
+import lib.events.CommonEventHandler;
 import lib.network.EventHandlerNetwork;
 import lib.network.RoAPacketHandler;
 import lib.utility.GameLogger;

@@ -1,10 +1,9 @@
 package com.proxies;
 
-import com.kyrodim.config.ModConfig;
-
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import lib.config.ModConfig;
 import lib.utility.GameLogger;
 import lib.utility.GodlyRating;
 import net.minecraft.entity.player.EntityPlayer;
